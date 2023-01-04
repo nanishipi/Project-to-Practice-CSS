@@ -35,6 +35,15 @@
         }
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
     /* To use the after pseudo element, content must be specified even if empty, same for display*/
     &::after {
         content: "";
